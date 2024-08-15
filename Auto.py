@@ -8,6 +8,6 @@ class Auto:
     
     def __str__(self):
         # La f al principio es para indicar que es un string formateado (f-string) 
-        return f'Placa: {self.placa}\nMarca: {self.marca}\nModelo: {self.modelo}\nDescripción: {self.descripcion}\nPrecio: {self.precio}\n'
+        return f'  Placa: {self.placa}\n  Marca: {self.marca}\n  Modelo: {self.modelo}\n  Descripción: {self.descripcion}\n  Precio: Q{self.precio}\n'
     
     

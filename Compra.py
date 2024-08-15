@@ -18,4 +18,4 @@ class Compras:
     
     def __str__(self):
         autos_info = "\n".join(str(auto) for auto in self.autos)
-        return f"ID Compra: {self.ID}\nCLIENTE(S):\n{self.cliente}\nAUTO(S) COMPRADO(S):\n{autos_info}\n"
+        return f"ID Compra: {self.ID}\nCLIENTE:\n{self.cliente}\nAUTO(S) COMPRADO(S):\n{autos_info}\n"

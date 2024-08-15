@@ -6,5 +6,5 @@ class Cliente:
         self.nit = nit
 
     def __str__(self):
-        return f'Nombre: {self.nombre}\nApellido: {self.apellido}\nEmail Registrado: {self.email}\nNumero de NIT: {self.nit}\n'
+        return f'  Nombre: {self.nombre}\n  Apellido: {self.apellido}\n  Email Registrado: {self.email}\n  Numero de NIT: {self.nit}\n'
     
